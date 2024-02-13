@@ -235,3 +235,115 @@
     width: 80%;
 }
 }
+
+/*  *********** @ MEDIA SCREEN (900 px) ************* */
+@media screen and (max-width: 900px) {
+  .margin-left {
+    margin-left: 20px;
+  }
+
+  .proof-logos {
+    height: 12px;
+  }
+}
+
+/*  *********** @ MEDIA SCREEN (800 px) ************* */
+@media screen and (max-width: 800px) {
+  .social-logo {
+    gap: 39px;
+  }
+
+  .proof-logos {
+    height: 11px;
+  }
+
+  .hand-arrow {
+    top: 39%;
+    right: 55%;
+  }
+
+  .footer-section {
+    margin-left: 0;
+  }
+
+  .margin-right {
+    margin-right: 30px;
+  }
+}
+
+/*  *********** @ MEDIA SCREEN (670 px) ************* */
+@media screen and (max-width: 670px) {
+  .heading-one{
+    font-size: 35px;
+  }
+
+  .paragraphy-one {
+    font-size: 15px;
+  }
+
+  .awesome-icon {
+    font-size: 20px;
+  }
+}
+
+/*  *********** @ MEDIA SCREEN (602 px) ************* */
+@media screen and (max-width: 602px) {
+  .social-paragraph {
+    font-size: 14px;
+  }
+
+  .social-logo {
+    gap: 19px;
+  }
+
+  .frame10-paragraph {
+    font-size: 14px;
+  }
+
+  .hand-arrow {
+    top: 44%;
+  }
+
+  .parentcomponent-heading {
+    font-size: 13px;
+  }
+
+  .FQA-text {
+    font-size: 12px;
+  }
+
+  .features-paragraph {
+    font-size: 12px;
+  }
+
+  .section {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 4rem;
+}
+
+.frame-image {
+  width: 90%;
+  height: 90%;
+}
+.mockup-image {
+  width: 90% ;
+  height: 400px;
+}
+}
+
+/*  *********** @ MEDIA SCREEN (507 px) ************* */
+@media screen and (max-width: 507px) {
+  .mockup-image {
+    width: 70% ;
+    height: 400px;
+  }
+
+  .fqaAccordian-div {
+    width: 100%;
+  }
+
+  .parent-help {
+    font-size: 11px;
+    font-weight: 200;
+  }
+}
