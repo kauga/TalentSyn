@@ -1,0 +1,237 @@
+/*  *********** @ MEDIA SCREEN (1340 px) ************* */
+@media screen and (max-width: 1340px) {
+  .heading-one {
+    font-size: 40px;
+  }
+
+  .paragraphy-one {
+    font-size: 20px;
+  }
+}
+
+/*  *********** @ MEDIA SCREEN (1292 px) ************* */
+@media screen and (max-width: 1292px) {
+  .paragraphy-one {
+    font-size: 16px;
+  }
+
+  .link {
+    font-size: 15px;
+  }
+}
+
+/*  *********** @ MEDIA SCREEN (1181 px) ************* */
+@media screen and (max-width: 1181px) {
+  .heading-one {
+    font-size: 35px;
+    font-weight: 600;
+  }
+  .button-modified {
+    margin-left: 90px;
+  }
+  .paragraphy-one {
+    font-size: 14px;
+  }
+
+  .button--two {
+    font-size: 15px;
+  }
+
+  .button-paragraphy {
+    font-size: 16px;
+  }
+
+  .parent-component {
+    font-size: 11px;
+  }
+  .paragraph-39 {
+    font-size: 14px;
+  }
+
+  .FQA-text {
+    font-size: 15px;
+  }
+
+  .frame40-heading {
+    font-size: 31px;
+    margin-bottom: 25px;
+  }
+
+  .suporting-text {
+    font-size: 13px;
+  }
+}
+
+/*  *********** @ MEDIA SCREEN (1150 px) ************* */
+@media screen and (max-width: 1150px) {
+  .button-modified {
+    margin-left: 40px;
+  }
+  .heading-one {
+    font-size: 34px;
+    font-weight: 600;
+  }
+
+  .button-discover {
+    flex-direction: column;
+  }
+
+  .frame10-paragraph {
+    font-size: 17px;
+    font-weight: 400;
+  }
+
+  .testimonial-paragraph {
+    font-size: 30px;
+  }
+
+  .features-paragraph {
+    font-size: 14px;
+  }
+}
+
+/*  *********** @ MEDIA SCREEN (1117 px) ************* */
+@media screen and (max-width: 1117px) {
+  .heading-one {
+    font-size: 30px;
+  }
+
+  .testimonial-paragraph {
+    font-size: 27px;
+  }
+
+  .FQA-text {
+    font-size: 14px;
+  }
+}
+
+/*  *********** @ MEDIA SCREEN (1050 px) ************* */
+/* mobile navigation */
+@media screen and (max-width: 1050px) {
+  .main-link {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 100%;
+    width: 100%;
+    height: 100vh;
+    background-color: #ffffff;
+    transform: translateX(100%);
+    transition: all 0.5s ease-in-out;
+    flex-direction: column;
+    z-index: 10;
+  }
+
+  .sub-link,
+  .mainlink,
+  .link {
+    flex-direction: column;
+    color: #101828;
+  }
+  .main-link.hidden {
+    left: -100%;
+  }
+
+  .button-modified {
+    flex-direction: row;
+    margin-top: 100px;
+    margin-left: 0px;
+  }
+
+  .icon {
+    font-size: 20px;
+    margin-top: 30px;
+    color: black;
+    stroke: aliceblue;
+  }
+
+  .menu-open {
+    display: block;
+    cursor: pointer;
+    float: right;
+  }
+
+  .window-close {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 3%;
+    cursor: pointer;
+  }
+
+  .proof-logos {
+    height: 15px;
+  }
+
+  .background-section {
+    height: 100%;
+  }
+
+  .frame31 {
+    flex-direction: column;
+  }
+
+  .button-discover {
+    flex-direction: row;
+  }
+
+  .heading-one {
+    font-size: 53px;
+  }
+
+  .paragraphy-one {
+    font-size: 22px;
+    font-weight: 400;
+  }
+
+  .testimonial-section {
+    grid-template-columns: 1fr;
+  }
+
+  .testimonial-paragraph {
+    font-size: 31px;
+  }
+
+  .sarah-div {
+    justify-content: start;
+    grid-area: 50px;
+  }
+
+}
+
+/*  *********** @ MEDIA SCREEN (1000 px) ************* */
+@media screen and (max-width: 1000px) {
+  .frame35 {
+    grid-template-columns: 1fr;
+    row-gap: 13rem;
+  }
+
+  .frame39 {
+    grid-template-columns: 1fr;
+  }
+
+  .frame40 {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .hand-arrow {
+    position: absolute;
+    height: 170px;
+    top: 33%;
+    right: 56.5%;
+  }
+
+  .mockup-image {
+    width: 60% ;
+    height: 400px;
+  }
+  .section {
+    grid-template-columns: repeat(3, 0.7fr);
+    row-gap: 4rem;
+}
+
+.header {
+    width: 80%;
+}
+}

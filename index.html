@@ -23,36 +23,82 @@
           <img src="/image/Group (2).png" alt="company logo" class="webLogo" />
           <p class="logo-text">clearLink</p>
         </div>
+
         <div class="headerList">
-          <a href="#" class="mainLink"
-            >product
-            <img
-              src="/image/Icon.png"
-              class="icon-arrow"
-              alt="icon to surpport the anchor"
-            />
-          </a>
-          <a href="#" class="mainLink"
-            >solution
-            <img
-              src="/image/Icon.png"
-              class="icon-arrow"
-              alt="icon to surpport the anchor"
-            />
-          </a>
-          <a href="#" class="mainLink"
-            >resource
-            <img
-              src="/image/Icon.png"
-              class="icon-arrow"
-              alt="icon to surpport the anchor"
-            />
-          </a>
-          <a href="#" class="mainLink">pricing </a>
-        </div>
-        <div class="headerList button-modified">
-          <button class="whitebutton">Talk to sales</button>
-          <button class="blueButton">Sign up for free</button>
+          <nav class="main-link">
+            <ul class="sub-link">
+              <li class="mainlink">
+                <a href="#" class="link"
+                  >product
+                  <img
+                    src="/image/Icon.png"
+                    alt="down arrow photo"
+                    class="icon"
+                /></a>
+              </li>
+
+              <li class="mainlink">
+                <a href="#" class="link"
+                  >solution
+                  <img
+                    src="/image/Icon.png"
+                    alt="down arrow photo"
+                    class="icon"
+                /></a>
+              </li>
+
+              <li class="mainlink">
+                <a href="#" class="link"
+                  >Resources
+                  <img
+                    src="/image/Icon.png"
+                    alt="down arrow photo"
+                    class="icon"
+                /></a>
+              </li>
+
+              <li class="mainlink">
+                <a href="#" class="link">Pricing</a>
+              </li>
+            </ul>
+            <div class="headerList button-modified">
+              <button class="whitebutton">Talk to sales</button>
+              <button class="blueButton">Sign up for free</button>
+            </div>
+            <div class="window-close">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="window-close"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M6 18 18 6M6 6l12 12"
+                />
+              </svg>
+            </div>
+          </nav>
+
+          <div class="menu-open">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="menu-open"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+              />
+            </svg>
+          </div>
         </div>
       </header>
 
@@ -88,7 +134,11 @@
           </div>
         </div>
         <div class="frame-twentyFive">
-          <img src="/image/Frame 25.png" alt="frame images" />
+          <img
+            src="/image/Frame 25.png"
+            alt="frame images"
+            class="frame-image"
+          />
         </div>
       </div>
     </section>
@@ -139,12 +189,12 @@
         <br />
         cutting-edge video conferencing app offers:
       </p>
-      <img
+      <!-- <img
         src="/image/Hand-drawn arrow.png"
         alt="arrow photo"
         class="hand-arrow"
       />
-    </section>
+    </section> -->
 
     <section class="frame35 margin-left">
       <div class="features-div">
@@ -205,8 +255,18 @@
         </div>
       </div>
       <div>
-        <img class="rectangle-one" src="/image/Rectangle 1.png" alt="" />
+        <img
+          class="rectangle-one"
+          src="/image/Rectangle 1.png"
+          alt="rectangle image"
+        />
       </div>
+      <img
+      src="/image/Hand-drawn arrow.png"
+      alt="arrow photo"
+      class="hand-arrow"
+    />
+      
     </section>
 
     <section class="testimonial-section margin-left">
@@ -317,7 +377,8 @@
     <section class="frame40">
       <div>
         <h3 class="frame40-heading">
-          Ready to clear the path to perfect communication?
+          Ready to clear the path to <br />
+          perfect communication?
         </h3>
         <nav class="check-items">
           <img
@@ -423,13 +484,29 @@
         <p class="footer-words">© 2023 ClearLink. All rights reserved.</p>
       </div>
       <div class="icon-div">
-        <a href="#"><img src="/image/Vector.png" alt="photo" class="awesome-icon"></a>
-        <a href="#"><i class="awesome-icon fa fa-twitter" aria-hidden="true"></i></a>
-        <a href="#"><i class="awesome-icon fa fa-facebook-square" aria-hidden="true"></i></a>
-        <a href="#"><i class="awesome-icon fa fa-instagram" aria-hidden="true"></i></a>
-        <a href="#"><i class="awesome-icon fa fa-github" aria-hidden="true"></i></a>
-        <a href="#"><i class="awesome-icon fa fa-youtube-play margin-right" aria-hidden="true"></i></a>
+        <a href="#"
+          ><img src="/image/Vector.png" alt="photo" class="awesome-icon"
+        /></a>
+        <a href="#"
+          ><i class="awesome-icon fa fa-twitter" aria-hidden="true"></i
+        ></a>
+        <a href="#"
+          ><i class="awesome-icon fa fa-facebook-square" aria-hidden="true"></i
+        ></a>
+        <a href="#"
+          ><i class="awesome-icon fa fa-instagram" aria-hidden="true"></i
+        ></a>
+        <a href="#"
+          ><i class="awesome-icon fa fa-github" aria-hidden="true"></i
+        ></a>
+        <a href="#"
+          ><i
+            class="awesome-icon fa fa-youtube-play margin-right"
+            aria-hidden="true"
+          ></i
+        ></a>
       </div>
     </section>
+    <script src="script.js"></script>
   </body>
 </html>

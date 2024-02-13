@@ -30,6 +30,22 @@
   /* margin-bottom: 5rem; */
 }
 
+/*  *********** HEADER SECTION ************* */
+.main-link,
+.sub-link,
+.mainlink {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: inter;
+  font-weight: 600;
+  color: #667085;
+}
+
 .headerList {
   display: flex;
   justify-content: center;
@@ -53,7 +69,7 @@
   text-decoration: none;
 }
 
-.mainLink {
+.link {
   font-size: 16px;
   text-decoration: none;
   font-family: Inter;
@@ -67,7 +83,7 @@
   margin-left: 5px;
 }
 .button-modified {
-  /* display: flex; */
+  margin-left: 120px;
   gap: 8px;
 }
 
@@ -96,6 +112,19 @@
   border-radius: 50px;
   border: solid 2px #98a2b3;
   cursor: pointer;
+}
+
+.menu-open {
+  display: none;
+  width: 3rem;
+  height: 3rem;
+}
+
+.window-close {
+  display: none;
+  width: 2rem;
+  height: 2rem;
+  color: red;
 }
 
 /*  *********** FFRAME 31 ************* */
@@ -223,7 +252,7 @@
 .hand-arrow {
   position: absolute;
   height: 170px;
-  top: 40%;
+  top: -40%;
   right: 20.5%;
 }
 
@@ -252,6 +281,7 @@
   grid-template-columns: 1.5fr 1fr;
   justify-content: space-between;
   margin-bottom: 130px;
+  position: relative;
 }
 
 .features-div {
@@ -434,7 +464,6 @@
 
 .border-top {
   border-top: solid 1px #eaecf0;
-
 }
 
 .FQA-text {
@@ -453,7 +482,7 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 100px;
-  align-items: center,
+  align-items: center;
 }
 
 .frame40-heading {
@@ -493,12 +522,12 @@
 .section {
   display: grid;
   grid-template-columns: 0.9fr 0.4fr 0.4fr 0.4fr 0.4fr 0.5fr;
-  gap: 10px; 
+  gap: 10px;
   margin-top: 60px;
 }
 
 .suporting-text {
-  font-size: 16px;
+  font-size: 14px;
   font-family: Inter;
   line-height: 26px;
   color: #475467;
@@ -513,7 +542,7 @@
 }
 
 .parent-component {
-  font-size: 14  px;
+  font-size: 14 px;
   line-height: 26px;
   font-family: Inter;
   font-weight: 600;
@@ -527,12 +556,12 @@
 }
 /*  *********** FOOTER SECTION ************* */
 .footer-section {
-margin-top: 50px;
-display: flex;
-justify-content: space-between;
-align-items: center;
-background-color: #F9FAFB;
-padding: 40px 0px 40px 0px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9fafb;
+  padding: 40px 0px 40px 0px;
 }
 
 .footer-words {
