@@ -553,4 +553,15 @@
     width: 90px;
   }
 
+  .parent-component {
+    line-height: 10px;
+  }
+
+  .section {
+    row-gap: 2rem;
+  }
+  .mockup-image {
+    width: 100%;
+    height: 100%;
+  }
 }
