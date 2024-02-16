@@ -558,7 +558,7 @@
   }
 
   .section {
-    row-gap: 2rem;
+    row-gap: 0rem;
   }
   .mockup-image {
     width: 100%;
